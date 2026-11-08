@@ -1,0 +1,18 @@
+# Secrets — never commit real keys
+.env
+*.env
+*_secret*
+tokens.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Runtime state (local only)
+*.state.json
+*kill_switch*
+
+# Logs
+*.log
